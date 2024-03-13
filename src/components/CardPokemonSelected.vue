@@ -3,7 +3,7 @@ const pokemon = defineProps(["name","type","xp","height","img","loading"])
 </script>
 
 <template>
-    <div class="card CardSelected"  style="width: 28rem;">
+    <div class="card CardSelected"  style="width: 25rem;">
   <img 
   v-if ="pokemon.name"
   :src="pokemon.img" height="200" class="card-img-top" alt="pokemon.name">
